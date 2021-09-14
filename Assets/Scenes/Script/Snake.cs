@@ -31,6 +31,7 @@ public class Snake : MonoBehaviour
       if (Input.GetKeyDown(KeyCode.W))
       {
          direction = Vector2.up;
+         Debug.Log("hej");
       }
       else if (Input.GetKeyDown(KeyCode.S))
       {
